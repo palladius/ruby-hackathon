@@ -3,6 +3,8 @@ GEM
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     baran (0.1.12)
+    dotenv (3.1.2)
+    io-console (0.7.2)
     json-schema (4.3.0)
       addressable (>= 2.8)
     langchainrb (0.15.2)
@@ -16,6 +18,8 @@ GEM
     pragmatic_segmenter (0.3.24)
     public_suffix (6.0.1)
     rainbow (3.1.1)
+    reline (0.5.9)
+      io-console (~> 0.5)
     zeitwerk (2.6.17)
 
 PLATFORMS
@@ -23,7 +27,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  dotenv
   langchainrb (~> 0.15.2)
+  reline (~> 0.5.9)
 
 BUNDLED WITH
    2.5.17
