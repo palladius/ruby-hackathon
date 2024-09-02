@@ -1,0 +1,4 @@
+
+
+gem "langchainrb", "~> 0.15.2"
+gem 'dotenv'

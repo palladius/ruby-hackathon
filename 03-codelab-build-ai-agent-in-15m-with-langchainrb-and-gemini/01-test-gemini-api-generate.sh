@@ -11,9 +11,9 @@ curl -H 'Content-Type: application/json' \
             {"role": "user",
               "parts":[{"text": "Explain whats so brilliant about Ruby on Rails vs similar frameworks in 2 paragraphs"}]}]}' \
      "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}" |
-        tee response.json
+        tee response-01.json
 
 echo
 echo '== Gemini answer =='
 echo
-cat response.json | jq -r '.candidates[0].content.parts[0].text'
+cat response-01.json | jq -r '.candidates[0].content.parts[0].text'
