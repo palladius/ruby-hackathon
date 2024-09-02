@@ -1,5 +1,7 @@
 # ruby-hackathon
 
+Self: https://github.com/palladius/ruby-hackathon (public Repo)
+
 Hello fellow rubyists!
 
 This repo contains 3 possible exercises to do at a hackathon.
