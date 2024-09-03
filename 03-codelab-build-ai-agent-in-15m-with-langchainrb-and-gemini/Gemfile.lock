@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
@@ -7,7 +8,7 @@ GEM
     io-console (0.7.2)
     json-schema (4.3.0)
       addressable (>= 2.8)
-    langchainrb (0.15.2)
+    langchainrb (0.15.4)
       baran (~> 0.1.9)
       json-schema (~> 4)
       matrix
@@ -15,11 +16,14 @@ GEM
       rainbow (~> 3.1.0)
       zeitwerk (~> 2.5)
     matrix (0.4.2)
+    power_assert (2.0.3)
     pragmatic_segmenter (0.3.24)
     public_suffix (6.0.1)
     rainbow (3.1.1)
     reline (0.5.9)
       io-console (~> 0.5)
+    test-unit (3.6.2)
+      power_assert
     zeitwerk (2.6.17)
 
 PLATFORMS
@@ -28,8 +32,9 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
-  langchainrb (~> 0.15.2)
+  langchainrb (~> 0.15.4)
   reline (~> 0.5.9)
+  test-unit
 
 BUNDLED WITH
    2.5.17
