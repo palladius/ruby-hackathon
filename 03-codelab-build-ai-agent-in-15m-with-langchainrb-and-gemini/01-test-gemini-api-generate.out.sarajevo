@@ -1,0 +1,12 @@
+GEMINI_API_KEY found: 'AIzaXXXXXX' (if its empty, you need to populate .env with proper value.)
+{
+  "error": {
+    "code": 400,
+    "message": "User location is not supported for the API use.",
+    "status": "FAILED_PRECONDITION"
+  }
+}
+
+== Gemini answer ==
+
+null
